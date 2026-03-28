@@ -263,7 +263,7 @@
                     </div>
 
                     <div class="header-actions">
-                        <a href="#" class="header-btn secondary">تحديث</a>
+                        
                         <span class="header-live">
                             مباشر
                             <span class="header-live-dot"></span>

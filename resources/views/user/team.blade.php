@@ -152,6 +152,24 @@ body{
     padding:22px 16px;
   }
 }
+.team-footer{
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 15px;
+  color: #bbbbbb;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.team-footer::before{
+  content: "";
+  display: block;
+  width: 70px;
+  height: 2px;
+  background: rgba(255,255,255,0.2);
+  margin: 0 auto 12px;
+}
 </style>
 </head>
 <body>
@@ -254,6 +272,9 @@ body{
       </div>
 
     </div>
+     <div class="team-footer">
+    الفريق تحت إشراف د/ جمال موسى
+</div>
   </main>
 </div>
 
@@ -321,6 +342,7 @@ function closeDrawer() {
   document.getElementById('mobileDrawer').classList.remove('open');
   document.getElementById('mobileOverlay').classList.remove('open');
 }
+
 </script>
 
 </body>

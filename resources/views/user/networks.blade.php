@@ -340,7 +340,7 @@
                 </div>
 
                 <div class="header-actions">
-                    <a href="#" class="header-btn">تحديث</a>
+                   
                     <span class="header-live">
                         مباشر
                         <span class="hlive-dot"></span>
