@@ -379,16 +379,19 @@
     }
 </script>
 
+<style>
+.complaints-page .badge{
+    text-decoration: none !important;
+    display: inline-block;
+}
+</style>
+
 <script>
 function toggleUpdate(id) {
     const box = document.getElementById('updateBox-' + id);
     if (box) {
         box.classList.toggle('open');
     }
-}
-.complaints-page .badge{
-    text-decoration: none !important;
-    display: inline-block;
 }
 </script>
 </body>
